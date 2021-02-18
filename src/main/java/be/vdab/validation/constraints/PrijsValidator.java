@@ -27,5 +27,3 @@ public class PrijsValidator implements ConstraintValidator<Prijs, BigDecimal> {
         return string.length() - positieVanDePunt <= 3;
     }
 }
-
-17.7
